@@ -6,23 +6,30 @@
 
 <?php
 require("../src/songs.inc.php");
-
-array_map("generarInformacio", $canciones);
-
-
-
-function generarInformacio($canciones){
-    ?>
-    <p>Artist: <?php echo $canciones['Artist']; ?> </p>
-    <p>Song: <?php echo $canciones['Song']; ?></p>
-    <p>Album: <?php echo $canciones['Album']; ?></p>
-    <p>Genre: <?php echo $canciones['Genre']; ?></p>
-
-    <br>
-    <hr>
-    <br>
-    <?php
-}
 ?>
+<table class="table">
+    <tr>
+        <th>Artist</th>
+        <th>Song</th>
+        <th>Album</th>
+        <th>Genre</th>
+    </tr>
+    <?php
+    foreach ($arrayMapCanciones as $cancion) {
+        ?>
+        <tr>
+            <?php
+            foreach ($cancion as $key => $c){
+                ?>
+                <td><?php echo $c ;?></td>
+                <?php
+            }
+            ?>
+        </tr>
+
+        <?php
+    }
+    ?>
+</table>
 
 

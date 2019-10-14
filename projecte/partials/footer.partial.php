@@ -1,5 +1,5 @@
 <footer class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+  <p>By Jaume Sapena</p>
 </footer>
 
 

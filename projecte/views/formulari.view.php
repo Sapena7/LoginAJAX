@@ -28,7 +28,7 @@ require 'partials/header.partial.php';
     </div>
     </div>
 
-    <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
+    <form action="<?php $_SERVER['PHP_SELF'] . $_SERVER['QUERY_STRING']; ?>" method="post">
 
         <div class="form-group">
             <label for="textoBuscar">Texto a Buscar:</label>
@@ -54,12 +54,36 @@ require 'partials/header.partial.php';
         <input type="submit" class="btn btn-primary" value="Enviar" </input>
 
     </form>
+
+    <table class="table">
+        <tr>
+            <th>Artist</th>
+            <th>Song</th>
+            <th>Album</th>
+            <th>Genre</th>
+        </tr>
+    <?php
+    foreach ($arrayCanciones as $cancion) {
+        ?>
+        <tr>
+            <?php
+                foreach ($cancion as $key => $c){
+                    ?>
+                        <td><?php echo $c ;?></td>
+                    <?php
+                }
+            ?>
+        </tr>
+
+        <?php
+    }
+    ?>
+    </table>
 </main>
 
 
 <?php
 require 'partials/footer.partial.php';
-
 ?>
 
 
