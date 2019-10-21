@@ -9,7 +9,7 @@ class Post{
     private $data;
     private $autor;
 
-    function __construct(integer $id, string $titol, string $contingut, date $data, string $autor) {
+    function __construct(int $id, string $titol, string $contingut, date $data, string $autor) {
         $this->id = $id;
         $this->titol = $titol;
         $this->contingut = $contingut;
