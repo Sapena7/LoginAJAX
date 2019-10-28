@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="683fde7e-ce20-4361-a3d9-173b1d28df44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exercici Cadenes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici Cadenes/.idea/Exercici Cadenes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici Cadenes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici Cadenes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici Cadenes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerenciaEntregar/.idea/Herencia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HerenciaEntregar/exercici3/src/objectes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLInputRadio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLInputSubmit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLInputText.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/HTMLSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/IControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/InvalidFormatOptionsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/OptionsNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/src/sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errors/testing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/.idea/interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/src/HTMLSelect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/src/IControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface/src/OptionsNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sublime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botasFutbol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/botasFutbolSala.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camisetasEntrenamiento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avds_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avds_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avds_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bannerBotasFutbol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bannerBotasFutbol2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bannerBotasFutbolSala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-adidas-nemeziz-19-fg-grey-two-solar-orange-chalk-white-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-adidas-predator-19-fg-bright-cyan-core-black-solar-yellow-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-adidas-predator-19-fg-core-black-utility-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-adidas-x-19-fg-bright-cyan-core-black-shock-pink-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-nike-mercurial-vapor-xiii-academy-mds-ag-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-nike-phantom-venom-elite-tc-fg-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-nike-phantom-vision-elite-df-ag-pro-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-nike-phantom-vision-elite-df-fg-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-puma-future-4.1-balr-fgag-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-puma-future-4.4-mg-yellow-alert-puma-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-puma-one-19.1-fgag-green-gecko-puma-black-charcoal-gray-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/bota-puma-one-5.1-fgag-puma-black-nrgy-red-puma-aged-silver-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/camisetasEntrenamientoBanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/categories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/details_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/details_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/details_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/details_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/discount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/footerfutbol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/footerfutbol2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home_slider_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prova.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Etiqueta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Producto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/cart_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/categories.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/categories_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/checkout_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/product_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sql/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HerenciaEntregar/exercici3/show_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../HerenciaEntregar/exercici3/show_post.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SjtL9gacHKxMcxNpzpC71s89BO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sql" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="683fde7e-ce20-4361-a3d9-173b1d28df44" name="Default Changelist" comment="" />
+      <created>1572088773543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572088773543</updated>
+      <workItem from="1572088774743" duration="793000" />
+      <workItem from="1572250042426" duration="10161000" />
+      <workItem from="1572261139023" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
