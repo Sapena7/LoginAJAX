@@ -1,0 +1,72 @@
+{
+  "projecteServidors/": {
+    "controller": "Product",
+    "method": "index"
+    },
+
+  "projecteServidors/search": {
+    "controller": "Product",
+    "method": "getProductsFiltered"
+  },
+
+  "projecteServidors/product/:id": {
+    "controller": "Product",
+    "method": "getProductById",
+    "params": {
+      "id": "number"
+    }
+  },
+
+  "projecteServidors/botasDeFutbol": {
+    "controller": "Product",
+    "method": "getBotasFutbol"
+  },
+
+  "projecteServidors/botasDeFutbol/search": {
+    "controller": "Product",
+    "method": "getBotasFutbolFiltered"
+  },
+
+  "projecteServidors/botasFutbolSala": {
+    "controller": "Product",
+    "method": "getBotasFutbolSala"
+  },
+
+  "projecteServidors/botasFutbolSala/search": {
+    "controller": "Product",
+    "method": "getBotasFutbolSala"
+  },
+
+  "projecteServidors/camisetasEntrenamiento": {
+    "controller": "Product",
+    "method": "getCamisetasEntrenamiento"
+  },
+
+  "projecteServidors/camisetasEntrenamiento/search": {
+    "controller": "Product",
+    "method": "getCamisetasEntrenamiento"
+  },
+
+  "projecteServidors/categories": {
+    "controller": "Product",
+    "method": "getCategories"
+  },
+
+  "projecteServidors/login": {
+    "controller": "User",
+    "method": "login"
+  },
+
+  "projecteServidors/dashboard": {
+    "controller": "User",
+    "method": "dashboard"
+  },
+
+  "projecteServidors/profile": {
+    "controller": "User",
+    "method": "profile"
+  }
+
+
+
+}
