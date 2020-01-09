@@ -18,7 +18,7 @@
          */
         session_start();
         $_SESSION['user'] = "Jaume";
-        $_SESSION['last_date'] = $date;
+
         if (isset($_SESSION['views'])){
             $_SESSION['views']++;
         }else {
@@ -56,15 +56,17 @@
          * Sessions
          */
         $views = $_SESSION['views'];
-        if ($views > 1) {
+        if ($views > 0) {
             $user = $_SESSION['user'];
             $last_date = $_SESSION['last_date'];
             echo "Es la segona vegada <br>";
             echo "Benvingut " . "<b>" . $user . "</b>" . "<br>";
             echo "Data anterior: " . $last_date . "<br>";
+            $_SESSION['last_date'] = $date;
             echo "Numero de visites: " . $views . "<br>";
         }else{
             echo "Benvingut <br>";
+            $_SESSION['last_date'] = $date;
         }
 
         if(isset($_POST['netejarBtn'])) {
