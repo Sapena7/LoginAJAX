@@ -23,7 +23,8 @@
         $dateString = $date->format('Y-m-d');
     ?>
 
-    <form action="<?php $_SERVER['PHP_SELF']."?page=modifyProduct";?>" method="post">
+    <form action="<?php
+    echo $route->generateURL('Product', 'modifyProduct', ['id' => $productNotModified->getId()])?>" method="post">
         <div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $productNotModified->getNombre() ?>">
@@ -68,17 +69,17 @@
         switch ($productNotModified->getCategoria()){
                 case 1:
                     ?>
-                    <img src="images/botasFutbol/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
+                    <img src="../images/botasFutbol/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
         <?php
                 break;
             case 2:
                 ?>
-                <img src="images/botasFutbolSala/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
+                <img src="../images/botasFutbolSala/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
         <?php
                 break;
             case 3:
                 ?>
-                <img src="images/camisetasEntrenamiento/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
+                <img src="../images/camisetasEntrenamiento/<?php echo $productNotModified->getImg();?>" width="150px" height="150px" alt=""><br>
         <?php
                 break;
         }

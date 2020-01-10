@@ -33,32 +33,32 @@ Licensed under MIT
                 <div class="profile-usermenu">
                     <ul class="nav">
                         <li class="active">
-                            <a href="index.php?page=profile">
+                            <a href='<?php echo $route->generateURL('User', 'profile') ?>'>
                                 <i class="glyphicon glyphicon-home"></i>
                                 Perfil </a>
                         </li>
                         <li>
-                            <a href="index.php?page=editProfile">
+                            <a href='<?php echo $route->generateURL('User', 'editProfile') ?>'>
                                 <i class="glyphicon glyphicon-user"></i>
                                 Modificar Perfil </a>
                         </li>
                         <li>
-                            <a href="index.php?page=editProductsUser" target="_blank">
+                            <a href='<?php echo $route->generateURL('Product', 'editProductsUser') ?>' target="_blank">
                                 <i class="glyphicon glyphicon-edit"></i>
                                 Productos </a>
                         </li>
                         <li>
-                            <a href="index.php?page=change_password" target="_blank">
+                            <a href='<?php echo $route->generateURL('User', 'change_password') ?>' target="_blank">
                                 <i class="glyphicon glyphicon glyphicon-wrench"></i>
                                 Cambiar contraseña </a>
                         </li>
                         <li>
-                            <a href="index.php?page=index" target="_blank">
+                            <a href='<?php echo $route->generateURL('Product', 'index') ?>' target="_blank">
                                 <i class="glyphicon glyphicon-shopping-cart"></i>
                                 Tienda </a>
                         </li>
                         <li>
-                            <a href="src/logout.php" target="_blank">
+                            <a href='<?php echo $route->generateURL('User', 'logout') ?>' target="_blank">
                                 <i class="glyphicon glyphicon glyphicon-log-out"></i>
                                 Cerrar session </a>
                         </li>

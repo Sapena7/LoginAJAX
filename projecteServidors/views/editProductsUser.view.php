@@ -41,32 +41,32 @@ Licensed under MIT
                 <div class="profile-usermenu">
                     <ul class="nav">
                         <li class="active">
-                            <a href="index.php?page=profile">
+                            <a href='<?php echo $route->generateURL('User', 'profile') ?>'>
                                 <i class="glyphicon glyphicon-home"></i>
                                 Perfil </a>
                         </li>
                         <li>
-                            <a href="index.php?page=editProfile">
+                            <a href='<?php echo $route->generateURL('User', 'editProfile') ?>'>
                                 <i class="glyphicon glyphicon-user"></i>
                                 Modificar Perfil </a>
                         </li>
                         <li>
-                            <a href="index.php?page=editProductsUser" target="_blank">
+                            <a href='<?php echo $route->generateURL('Product', 'editProductsUser') ?>' target="_blank">
                                 <i class="glyphicon glyphicon-edit"></i>
                                 Productos </a>
                         </li>
                         <li>
-                            <a href="index.php?page=change_password" target="_blank">
+                            <a href='<?php echo $route->generateURL('User', 'change_password') ?>' target="_blank">
                                 <i class="glyphicon glyphicon glyphicon-wrench"></i>
                                 Cambiar contraseña </a>
                         </li>
                         <li>
-                            <a href="index.php?page=index" target="_blank">
+                            <a href='<?php echo $route->generateURL('Product', 'index') ?>' target="_blank">
                                 <i class="glyphicon glyphicon-shopping-cart"></i>
                                 Tienda </a>
                         </li>
                         <li>
-                            <a href="src/logout.php" target="_blank">
+                            <a href='<?php echo $route->generateURL('User', 'logout') ?>' target="_blank">
                                 <i class="glyphicon glyphicon glyphicon-log-out"></i>
                                 Cerrar session </a>
                         </li>
@@ -77,7 +77,7 @@ Licensed under MIT
         </div>
 
             <div class="col-sm-4">
-                <a href="index.php?page=createProduct">
+                <a href="<?php echo $route->generateURL('Product', 'createProduct') ?>">
                     <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Añadir Producto</button>
                 </a>
             </div>
@@ -85,8 +85,8 @@ Licensed under MIT
         <div class="col-md-9">
             <div class="profile-content">
                 <div class="row">
-                    <form action="index.php?page=inicio" name="search_form" method="GET">
-                        <input type="hidden" name="page" value="<?= $_GET['page'];?>">
+                    <form action='<?php echo $route->generateURL('Product', 'editProductsUser') ?>' name="search_form" method="GET">
+                        <input type="hidden" name="page" value="<?= $_GET['page'] ?? "botasFutbol";?>">
                         <input type="hidden" name="pages" value="<?php echo $pagePagination;?>">
 
                         <td>Fecha Inicio:</td>
@@ -134,8 +134,10 @@ Licensed under MIT
                                 <td><?php echo $dateString;?></td>
                                 <td>
                                     <!--<a class="add" title="Añadir" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>-->
-                                    <a href="index.php?page=modifyProduct&id=<?php echo $product->getId();?>" class="edit" title="Editar" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                    <a href="index.php?page=deleteProduct&id=<?php echo $product->getId();?>" class="delete" title="Eliminar" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                                    <a href="<?php
+                                    echo $route->generateURL('Product', 'modifyProduct', ['id' => $product->getId()]) ?>" class="edit" title="Editar" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                    <a href="<?php
+                                    echo $route->generateURL('Product', 'deleteProduct', ['id' => $product->getId()]) ?>" class="delete" title="Eliminar" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                                 </td>
                             </tr>
                         <?php }?>
@@ -145,19 +147,22 @@ Licensed under MIT
                         <ul class="pagination">
                             <?php
                             if ($previous!=0){ ?>
-                                <li class="active"><a href="index.php?page=editProductsUser&pages=<?= $previous . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Previous</a></li>
+                                <li class="active"><a href="<?php
+                                    echo $route->generateURL('Product', 'editProductsUser') . "?pages=" . $previous . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Previous</a></li>
                             <?php }
                             ?>
 
                             <?php
                             for ($i = 1; $i<=$pages; $i++){?>
-                                <li class="active"><a href="index.php?page=editProductsUser&pages=<?= $i . $categoria . $fechaMin . $fechaMax . $textFilter;?>"><?=$i?></a></li>
+                                <li class="active"><a href="<?php
+                                    echo $route->generateURL('Product', 'editProductsUser') . "?pages=" . $i . $categoria . $fechaMin . $fechaMax . $textFilter;?>"><?=$i?></a></li>
                                 <?php
                             }
                             ?>
                             <?php
                             if ($next<=$pages){ ?>
-                                <li class="active"><a href="index.php?page=editProductsUser&pages=<?= $next . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Next</a></li>
+                                <li class="active"><a href="<?php
+                                    echo $route->generateURL('Product', 'editProductsUser') . "?pages=" . $next . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Next</a></li>
                             <?php }?>
                         </ul>
                     </nav>

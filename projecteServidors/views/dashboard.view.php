@@ -3,8 +3,8 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="styles/dashboard.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="../styles/dashboard.css">
+<link rel="stylesheet" type="text/css" href="../styles/main_styles.css">
 <!------ Include the above in your HEAD tag ---------->
 
 <div id="throbber" style="display:none; min-height:120px;"></div>
@@ -41,13 +41,13 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="index.php?page=adminProducts"><i class="fa fa-fw fa-user-plus"></i> Productos</a>
+                    <a href='<?php echo $route->generateURL('Product', 'getAdminProducts') ?>'><i class="fa fa-fw fa-user-plus"></i> Productos</a>
                 </li>
                 <li>
-                    <a href="index.php?page=index">Tienda</a>
+                    <a href='<?php echo $route->generateURL('Product', 'index') ?>'>Tienda</a>
                 </li>
                 <li>
-                    <a href="src/logout.php">Cerrar Sesión</a>
+                    <a href='<?php echo $route->generateURL('User', 'logout') ?>'>Cerrar Sesión</a>
                 </li>
             </ul>
         </div>

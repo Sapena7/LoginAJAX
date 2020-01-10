@@ -4,10 +4,10 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="styles/dashboard.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/table.css">
-<link rel="stylesheet" type="text/js" href="js/table.css">
+<link rel="stylesheet" type="text/css" href="../styles/dashboard.css">
+<link rel="stylesheet" type="text/css" href="../styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="../styles/table.css">
+<link rel="stylesheet" type="text/js" href="../js/table.css">
 
 <!------ Include the above in your HEAD tag ---------->
 
@@ -45,13 +45,16 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="index.php?page=adminProducts"><i class="fa fa-fw fa-user-plus"></i> Productos</a>
+                    <a href=""<?php
+                    echo $route->generateURL('Product', 'getAdminProducts') ?>""><i class="fa fa-fw fa-user-plus"></i> Productos</a>
                 </li>
                 <li>
-                    <a href="index.php?page=index">Tienda</a>
+                    <a href="<?php
+                    echo $route->generateURL('Product', 'index') ?>">Tienda</a>
                 </li>
                 <li>
-                    <a href="src/logout.php">Cerrar Sesión</a>
+                    <a href="<?php
+                    echo $route->generateURL('User', 'logout') ?>">Cerrar Sesión</a>
                 </li>
             </ul>
         </div>
@@ -69,15 +72,17 @@
                                 <div class="row">
                                     <div class="col-sm-8"><h2>Productos</h2></div>
                                     <div class="col-sm-4">
-                                        <a href="index.php?page=createProduct">
+                                        <a href="<?php
+                                        echo $route->generateURL('Product', 'createProduct') ?>">
                                         <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Añadir Producto</button>
                                         </a>
                                     </div>
                                 </div>
                                 <br>
                                 <!-- Product Sorting -->
-                                <form action="index.php?page=adminProducts" name="search_form" method="GET">
-                                    <input type="hidden" name="page" value="<?= $_GET['page'];?>">
+                                <form action="<?php
+                                echo $route->generateURL('Product', 'getAdminProducts') ?>" name="search_form" method="GET">
+                                    <input type="hidden" name="page" value="<?= $_GET['page'] ?? "index";?>">
                                     <input type="hidden" name="pages" value="<?php echo $pagePagination;?>">
 
                                     <td>Fecha Inicio:</td>
@@ -126,8 +131,10 @@
                                     <td><?php echo $dateString;?></td>
                                     <td>
                                         <!--<a class="add" title="Añadir" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>-->
-                                        <a href="index.php?page=modifyProduct&id=<?php echo $product->getId(); ?>" class="edit" title="Editar" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                                        <a href="index.php?page=deleteProduct&id=<?php echo $product->getId(); ?>" class="delete" title="Eliminar" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                                        <a href="<?php
+                                        echo $route->generateURL('Product', 'modifyProduct', ['id' => $product->getId()])?>" class="edit" title="Editar" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                        <a href="<?php
+                                        echo $route->generateURL('Product', 'deleteProduct', ['id' => $product->getId()])?>" class="delete" title="Eliminar" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                                     </td>
                                 </tr>
                                 <?php }?>
@@ -138,19 +145,22 @@
                                 <ul class="pagination">
                                     <?php
                                     if ($previous!=0){ ?>
-                                        <li class="active"><a href="index.php?page=adminProducts&pages=<?= $previous . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Previous</a></li>
+                                        <li class="active"><a href="<?php
+                                            echo $route->generateURL('Product', 'getAdminProducts') . "?pages=" . $previous . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Previous</a></li>
                                     <?php }
                                     ?>
 
                                     <?php
                                     for ($i = 1; $i<=$pages; $i++){?>
-                                        <li class="active"><a href="index.php?page=adminProducts&pages=<?= $i . $categoria . $fechaMin . $fechaMax . $textFilter;?>"><?=$i?></a></li>
+                                        <li class="active"><a href="<?php
+                                            echo $route->generateURL('Product', 'getAdminProducts') . "?pages=" . $i . $categoria . $fechaMin . $fechaMax . $textFilter;?>"><?=$i?></a></li>
                                         <?php
                                     }
                                     ?>
                                     <?php
                                     if ($next<=$pages){ ?>
-                                        <li class="active"><a href="index.php?page=adminProducts&pages=<?= $next . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Next</a></li>
+                                        <li class="active"><a href="<?php
+                                            echo $route->generateURL('Product', 'getAdminProducts') . "?pages=" . $next . $categoria . $fechaMin . $fechaMax . $textFilter;?>">Next</a></li>
                                     <?php }?>
                                 </ul>
                             </nav>

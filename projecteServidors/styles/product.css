@@ -1493,5 +1493,11 @@ section
 }
 
 /*********************************
-10. Imagen perfil
+10. Product img
 *********************************/
+.imgProduct{
+	height: 400px;
+	width: 400px;
+	vertical-align: middle;
+	border-style: none;
+}

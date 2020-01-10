@@ -192,6 +192,10 @@
       <change afterPath="$PROJECT_DIR$/../Funcions/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Funcions/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Funcions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/.idea/bloc-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/composer.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/config/routes.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/partials/head.partial.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/src/Controller/AbstractController.php" afterDir="false" />
@@ -202,6 +206,144 @@
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/src/Core/Request.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/src/Core/Router.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bloc-demo-master/src/Utils/DependencyInjector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/UPGRADE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/DateTimeImmutable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/ElasticsearchFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/LogmaticFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ElasticaHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ElasticsearchHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FallbackGroupHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/InsightOpsHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/LogmaticHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/NoopHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/OverflowHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ProcessHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SendGridHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SlackWebhookHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SqsHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/TelegramBotHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/WebRequestRecognizerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/HostnameProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/MercurialProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/ProcessorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Registry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/ResettableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/SignalHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Test/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/monolog/monolog/src/Monolog/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/AbstractLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/LogLevel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/LoggerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/LoggerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/NullLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/Psr/Log/Test/TestLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bloc-demo-master/vendor/psr/log/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blogSQL/.idea/interface.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blogSQL/exercici2/delete.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blogSQL/exercici2/functions.php" afterDir="false" />
@@ -223,6 +365,7 @@
       <change afterPath="$PROJECT_DIR$/../colorlib/js/extention/flatpickr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../colorlib/js/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../colorlib/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examenPractic/.idea/examenPractic.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imatge/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imatge/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imatge/.idea/imatge.iml" afterDir="false" />
@@ -235,94 +378,333 @@
       <change afterPath="$PROJECT_DIR$/../imatge/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imatge/upload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidors.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/ScrollMagic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/ScrollToPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/TimelineMax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/TweenMax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bota-adidas-predator-19-fg-bright-cyan-core-black-solar-yell.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bota-adidas-predator-19-fg-core-black-utility-black-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bota-adidas-x-19-fg-bright-cyan-core-black-shock-pink-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/bota-puma-future-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/categories.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/icon_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/icon_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/icon_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/jquery-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/login.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/main_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/myuser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/owl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/owl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/owl_002.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Futbol Shop_fitxers/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbol/product_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbol/product_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbol/product_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-adidas-copa-19-tr-maroon-collegiate-burgundy-gold-metallic-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-adidas-copa-70y-tr-core-black-white-gold-metallic-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-adidas-nemeziz-19.3-ll-turf-football-blue-gold-metallic-core-black-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-adidas-predator-tango-19-in-bold-blue-silver-metallic-active-red-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-nike-lunar-gato-ii-ic-platinum-tint-black-bright-crimson-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-nike-mercurial-superfly-vii-academy-mds-ic-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-nike-mercurial-vapor-xiii-pro-mds-ic-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-nike-phantom-vision-academy-df-ic-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-puma-365-roma-1-sala-puma-black-puma-white-gum-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-puma-365-roma-2-sala-nrgy-red-puma-white-rhubarb-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-puma-future-4.3-netfit-turf-glacial-blue-nrgy-red-high-risk-red-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/zapatilla-puma-one-5.4-it-v-nino-puma-black-nrgy-red-puma-aged-silver-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolSalacart_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolproduct_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolproduct_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/botasFutbolproduct_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/myuser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/perfilPerDefecte.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/FilteredMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Categoria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/DependencyInjector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/adminProducts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/adminProducts.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/botasFutbol.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/botasFutbolSala.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/camisetasEntrenamiento.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/categories.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dashboard.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/editProductsUser.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errorPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/modifyProduct.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/product.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/profile.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/registro.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbol/producto-sin-foto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/botasFutbolSala/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/show.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced_legacy.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/api.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/coding_standards.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/abs.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/batch.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/capitalize.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/column.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/convert_encoding.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/country_name.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/currency_name.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/currency_symbol.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/data_uri.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/date.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/date_modify.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/default.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/escape.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/filter.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/first.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format_currency.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format_date.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format_datetime.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format_number.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/format_time.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/html_to_markdown.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/inky_to_html.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/inline_css.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/join.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/json_encode.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/keys.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/language_name.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/last.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/length.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/locale_name.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/lower.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/map.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/markdown_to_html.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/merge.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/nl2br.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/number_format.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/raw.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/reduce.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/replace.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/reverse.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/round.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/slice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/sort.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/spaceless.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/split.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/striptags.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/timezone_name.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/title.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/trim.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/u.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/upper.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/filters/url_encode.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/attribute.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/block.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/constant.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/country_timezones.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/cycle.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/date.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/dump.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/html_classes.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/include.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/max.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/min.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/parent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/random.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/range.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/source.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/functions/template_from_string.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/installation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/internals.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/intro.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/recipes.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/apply.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/autoescape.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/block.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/deprecated.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/do.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/embed.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/extends.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/flush.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/for.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/from.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/if.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/import.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/include.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/macro.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/sandbox.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/set.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/use.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/verbatim.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tags/with.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/templates.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/constant.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/defined.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/divisibleby.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/empty.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/even.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/iterable.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/null.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/odd.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/tests/sameas.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/drupal_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Cache/CacheInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Cache/FilesystemCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Cache/NullCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Compiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Environment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Error/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Error/LoaderError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Error/RuntimeError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Error/SyntaxError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/ExpressionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/AbstractExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/CoreExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/DebugExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/EscaperExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/ExtensionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/GlobalsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/OptimizerExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/ProfilerExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/RuntimeExtensionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/SandboxExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/StagingExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Extension/StringLoaderExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/ExtensionSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/FileExtensionEscapingStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Loader/ArrayLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Loader/ChainLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Loader/FilesystemLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Loader/LoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Markup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/AutoEscapeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/BlockNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/BlockReferenceNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/BodyNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/CheckSecurityNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/CheckToStringNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/DeprecatedNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/DoNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/EmbedNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/AbstractExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/ArrayExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/ArrowFunctionExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/AssignNameExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/AbstractBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/AddBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/AndBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/BitwiseAndBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/BitwiseOrBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/BitwiseXorBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/ConcatBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/DivBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/EndsWithBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/EqualBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/FloorDivBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/GreaterBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/GreaterEqualBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/InBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/LessBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/LessEqualBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/MatchesBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/ModBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/MulBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/NotEqualBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/NotInBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/OrBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/PowerBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/RangeBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/SpaceshipBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/StartsWithBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Binary/SubBinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/BlockReferenceExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/CallExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/ConditionalExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/ConstantExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Filter/DefaultFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/FilterExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/FunctionExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/GetAttrExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/InlinePrint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/MethodCallExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/NameExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/NullCoalesceExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/ParentExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/TempNameExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/ConstantTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/DefinedTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/DivisiblebyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/EvenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/NullTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/OddTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Test/SameasTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/TestExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Unary/AbstractUnary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Unary/NegUnary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Unary/NotUnary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/Unary/PosUnary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Expression/VariadicExpression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/FlushNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/ForLoopNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/ForNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/IfNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/ImportNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/IncludeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/MacroNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/ModuleNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/NodeCaptureInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/NodeOutputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/PrintNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/SandboxNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/SetNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/TextNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Node/WithNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeTraverser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/AbstractNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/EscaperNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/MacroAutoImportNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/NodeVisitorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/OptimizerNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/SafeAnalysisNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/NodeVisitor/SandboxNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Dumper/BaseDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Dumper/BlackfireDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Dumper/HtmlDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Dumper/TextDumper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Node/EnterProfileNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Node/LeaveProfileNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/NodeVisitor/ProfilerNodeVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Profiler/Profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/RuntimeLoader/ContainerRuntimeLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/RuntimeLoader/FactoryRuntimeLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/RuntimeLoader/RuntimeLoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityNotAllowedFilterError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityNotAllowedFunctionError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityNotAllowedMethodError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityNotAllowedPropertyError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityNotAllowedTagError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Sandbox/SecurityPolicyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TemplateWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Test/IntegrationTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Test/NodeTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/AbstractTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/ApplyTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/AutoEscapeTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/BlockTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/DeprecatedTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/DoTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/EmbedTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/ExtendsTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/FlushTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/ForTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/FromTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/IfTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/ImportTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/IncludeTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/MacroTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/SandboxTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/SetTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/TokenParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/UseTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenParser/WithTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TokenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TwigFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TwigFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/TwigTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Util/DeprecationCollector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Util/TemplateDirIterator.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/.idea/misc.xml" afterDir="false" />
@@ -542,7 +924,6 @@
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/botasFutbol.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/botasFutbolSala.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/camisetasEntrenamiento.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/categories.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/change_password.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/createProduct.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/dashboard.view.php" afterDir="false" />
@@ -556,11 +937,253 @@
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/product.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/profile.view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/registro.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sublime/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sublime/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sublime/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sublime/.idea/sublime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sublime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/sublime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/config/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/config/routes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/ScrollMagic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/ScrollToPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/TimelineMax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/TweenMax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bota-adidas-predator-19-fg-bright-cyan-core-black-solar-yell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bota-adidas-predator-19-fg-core-black-utility-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bota-adidas-x-19-fg-bright-cyan-core-black-shock-pink-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/bota-puma-future-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/categories.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/jquery-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/myuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/owl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/owl_002.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/Futbol Shop_fitxers/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/avds_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/avds_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/avds_xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/bannerBotasFutbol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/bannerBotasFutbol2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/bannerBotasFutbolSala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-adidas-nemeziz-19-fg-grey-two-solar-orange-chalk-white-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-adidas-predator-19-fg-bright-cyan-core-black-solar-yellow-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-adidas-predator-19-fg-core-black-utility-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-adidas-x-19-fg-bright-cyan-core-black-shock-pink-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-nike-mercurial-vapor-xiii-academy-mds-ag-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-nike-phantom-venom-elite-tc-fg-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-nike-phantom-vision-elite-df-ag-pro-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-nike-phantom-vision-elite-df-fg-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-puma-future-4.1-balr-fgag-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-puma-future-4.4-mg-yellow-alert-puma-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-puma-one-19.1-fgag-green-gecko-puma-black-charcoal-gray-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/bota-puma-one-5.1-fgag-puma-black-nrgy-red-puma-aged-silver-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/product_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/product_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbol/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-adidas-copa-19-tr-maroon-collegiate-burgundy-gold-metallic-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-adidas-copa-70y-tr-core-black-white-gold-metallic-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-adidas-nemeziz-19.3-ll-turf-football-blue-gold-metallic-core-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-adidas-predator-tango-19-in-bold-blue-silver-metallic-active-red-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-nike-lunar-gato-ii-ic-platinum-tint-black-bright-crimson-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-nike-mercurial-superfly-vii-academy-mds-ic-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-nike-mercurial-vapor-xiii-pro-mds-ic-blue-void-barely-volt-white-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-nike-phantom-vision-academy-df-ic-dark-grey-bright-mango-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-puma-365-roma-1-sala-puma-black-puma-white-gum-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-puma-365-roma-2-sala-nrgy-red-puma-white-rhubarb-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-puma-future-4.3-netfit-turf-glacial-blue-nrgy-red-high-risk-red-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSala/zapatilla-puma-one-5.4-it-v-nino-puma-black-nrgy-red-puma-aged-silver-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolSalacart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutboldiscount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolproduct_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolproduct_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/botasFutbolproduct_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-adidas-campeon-19-mc-power-red-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-adidas-condivo-18-mc-black-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-adidas-condivo-18-mc-bold-green-solar-green-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-adidas-tiro-19-mc-bold-blue-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-challenge-ii-mc-black-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-dry-park-derby-ii-ream-red-university-blue-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-gardien-mc-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-legend-mc-white-royal-blue-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-park-goalie-iii-ml-persian-violet-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-park-goalie-iii-ml-total-orange-black-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-striped-division-iii-mc-university-red-black-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamiento/camiseta-nike-tiempo-premier-ml-midnight-navy-white-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/camisetasEntrenamientoBanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/cart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/categories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/details_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/details_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/details_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/details_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/discount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/footerfutbol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/footerfutbol2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/home_slider_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/myuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/perfilPerDefecte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/product_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/producto-sin-foto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/images/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/js/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/partials/footer.partial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/partials/header.partial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/Isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Controller/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Core/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Core/FilteredMap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Core/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/DBConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Entity/Categoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Model/ProductModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/Utils/DependencyInjector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/src/sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/adminProducts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/categories.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/categories_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/change_password.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/checkout_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/product_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/profile2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/styles/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/adminProducts.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/botasFutbol.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/botasFutbolSala.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/camisetasEntrenamiento.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/categories.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/change_password.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/createProduct.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/dashboard.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/deleteProduct.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/editProductsUser.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/editProfile.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/errorPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/index.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/login.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/modifyProduct.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/product.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/profile.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsOLD/views/registro.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecteServidorsTwig/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sublime/cart.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sublime/categories.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sublime/checkout.html" afterDir="false" />
@@ -691,6 +1314,7 @@
       <change beforePath="$PROJECT_DIR$/../blogSQL/exercici2/partials/header.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/../blogSQL/exercici2/partials/header.partial.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blogSQL/exercici2/resultados.php" beforeDir="false" afterPath="$PROJECT_DIR$/../blogSQL/exercici2/resultados.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blogSQL/exercici2/testing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../blogSQL/exercici2/testing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cookies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../cookies/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interface.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../projecte/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projecte/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../projecte/partials/header.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projecte/partials/header.partial.php" afterDir="false" />
@@ -700,48 +1324,39 @@
       <change beforePath="$PROJECT_DIR$/../projecte/views/resultats.view.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../projecteJaume/views/formulari.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteJaume/views/formulari.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sublime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sublime.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botasFutbol.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botasFutbolSala.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/camisetasEntrenamiento.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/details_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prova.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registro.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/src/Categoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Etiqueta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Producto.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Usuario.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AbstractController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ErrorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/styles/cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/cart_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/styles/cart_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/categories.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/categories.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/styles/checkout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main_styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/adminProducts.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/adminProducts.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/botasFutbol.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/botasFutbol.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/botasFutbolSala.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/botasFutbolSala.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/camisetasEntrenamiento.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/camisetasEntrenamiento.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categories.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../projecteServidorsInterfaces/views/categories.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/editProductsUser.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/editProductsUser.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifyProduct.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifyProduct.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/product.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/profile.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -786,6 +1401,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1SjtL9gacHKxMcxNpzpC71s89BO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -798,22 +1421,24 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bloc-demo-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Escriptori/projecteServidorsInterfaces" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Model" />
       <recent name="$PROJECT_DIR$/src/Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -873,8 +1498,22 @@
       <workItem from="1574338990090" duration="2810000" />
       <workItem from="1574925978940" duration="3030000" />
       <workItem from="1575290987811" duration="18615000" />
-      <workItem from="1575881657807" duration="6077000" />
+      <workItem from="1575881657807" duration="7461000" />
+      <workItem from="1576051947092" duration="276000" />
+      <workItem from="1576052298184" duration="1181000" />
+      <workItem from="1576053574047" duration="1298000" />
+      <workItem from="1576487941262" duration="19340000" />
+      <workItem from="1576659902452" duration="2682000" />
+      <workItem from="1578654645407" duration="1874000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1575891273420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575891273420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,17 +1538,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="71" width="1160" height="806" key="CommitChangelistDialog2" timestamp="1575891270016">
+    <state x="555" y="136" width="802" height="676" key="#Composer" timestamp="1576143836917">
       <screen x="0" y="28" width="1920" height="893" />
     </state>
-    <state x="376" y="71" width="1160" height="806" key="CommitChangelistDialog2/0.28.1920.893@0.28.1920.893" timestamp="1575891270016" />
-    <state x="743" y="233" width="426" height="483" key="FileChooserDialogImpl" timestamp="1575890020549">
+    <state x="555" y="136" width="802" height="676" key="#Composer/0.28.1920.893@0.28.1920.893" timestamp="1576143836917" />
+    <state x="555" y="136" width="802" height="676" key="#Notifications" timestamp="1576156218491">
       <screen x="0" y="28" width="1920" height="893" />
     </state>
-    <state x="743" y="233" width="426" height="483" key="FileChooserDialogImpl/0.28.1920.893@0.28.1920.893" timestamp="1575890020549" />
+    <state x="555" y="136" width="802" height="676" key="#Notifications/0.28.1920.893@0.28.1920.893" timestamp="1576156218491" />
+    <state x="693" y="224" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576153130169">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="693" y="224" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.893@0.28.1920.893" timestamp="1576153130169" />
+    <state x="376" y="71" width="1160" height="806" key="CommitChangelistDialog2" timestamp="1578657566490">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="376" y="71" width="1160" height="806" key="CommitChangelistDialog2/0.28.1920.893@0.28.1920.893" timestamp="1578657566490" />
+    <state x="743" y="233" width="426" height="483" key="FileChooserDialogImpl" timestamp="1576660021278">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="743" y="233" width="426" height="483" key="FileChooserDialogImpl/0.28.1920.893@0.28.1920.893" timestamp="1576660021278" />
     <state x="755" y="187" width="393" height="573" key="RollbackChangesDialog" timestamp="1575891172968">
       <screen x="0" y="28" width="1920" height="893" />
     </state>
     <state x="755" y="187" width="393" height="573" key="RollbackChangesDialog/0.28.1920.893@0.28.1920.893" timestamp="1575891172968" />
+    <state x="555" y="199" width="802" height="550" key="Vcs.Push.Dialog.v2" timestamp="1576667112080">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="555" y="199" width="802" height="550" key="Vcs.Push.Dialog.v2/0.28.1920.893@0.28.1920.893" timestamp="1576667112080" />
+    <state x="616" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1578654646008">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="616" y="302" key="com.intellij.ide.util.TipDialog/0.28.1920.893@0.28.1920.893" timestamp="1578654646008" />
+    <state x="605" y="206" width="709" height="538" key="find.popup" timestamp="1578656732869">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="605" y="206" width="709" height="538" key="find.popup/0.28.1920.893@0.28.1920.893" timestamp="1578656732869" />
+    <state x="623" y="215" key="run.anything.popup" timestamp="1576143084574">
+      <screen x="0" y="28" width="1920" height="893" />
+    </state>
+    <state x="623" y="215" key="run.anything.popup/0.28.1920.893@0.28.1920.893" timestamp="1576143084574" />
   </component>
 </project>

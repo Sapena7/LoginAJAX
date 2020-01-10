@@ -17,11 +17,15 @@ class UserController extends AbstractController
          * Comença la sessio una vegada recibixca el POST
          */
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
             session_start();
+            $_SESSION['time_start'] = time();
+            session_regenerate_id(true); //Als minuts que definim, s'actualitzara l'id de sessio
 
             if (isset($_GET['cerrar_sesion'])) {
                 session_unset();
                 session_destroy();
+                set_cookie(session_name(), '0', time()-2222);
             }
 
             $model->login($user); //Comprova l'usuari i la contrasenya i fa login
@@ -71,4 +75,65 @@ class UserController extends AbstractController
         return "";
     }
 
+    public function editProfile(){
+        global $route;
+        session_start();
+
+        /*
+         * Si l'usuari es anonim el redirigix al login
+         */
+        if (!isset($_SESSION['rol'])) {
+            header("location: " . $route->generateURL('User', 'login'));
+        }
+
+        $id = $_SESSION['Id'];
+
+        $model = new UserModel($this->db);
+
+        $userNotModified = $model->getUserInformation($id); //Agafa l'informacio de l'usuari a partir del id
+        $userModified = $model->fillDataModify(); //Plena l'usuari
+        $userModified->setId($id); //li posa el ud
+        $errors = $model->validate($userModified); //verifica els errors
+
+        if (empty($errors)) {
+            $model->updateUser($userModified);
+        }
+
+        $statusMsg = $model->uploadImatge($id); //Per a putjar l'imatge
+
+
+        require("views/editProfile.view.php");
+        return "";
+    }
+
+    public function change_password(){
+        session_start();
+
+        $id = $_SESSION['Id'];
+
+        $model = new UserModel($this->db);
+        $user = $model->getUserInformation($id);
+
+        $response = "";
+
+        $response = $model->getUserPasswordAndChange($user);
+
+        if ($response == 1) {
+            echo "Contraseña actualizada";
+        } else {
+            echo "Las contraseñas no coinciden / la contraseña antigua no es correcta";
+        }
+
+
+        require("views/change_password.view.php");
+    }
+
+    public function logout(){
+        global $route;
+        session_start();
+        session_unset();
+        session_destroy();
+
+        header("location: " . $route->generateURL('User', 'login'));
+    }
 }
