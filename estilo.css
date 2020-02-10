@@ -1,0 +1,31 @@
+body {
+    font-size:14px; margin:0;
+}
+.contenedor {
+    margin:0 auto;
+    width:800px;
+    text-align:center;
+}
+span {
+    color:red;
+}
+#formulario {
+    margin:0 auto;
+    border-radius:5px;
+    box-shadow:2px 3px 4px #000;
+    border:1px solid #000;
+    width:400px;
+    padding:25px;
+    background:#d1d1d1;
+}
+input {
+    border-radius:5px;
+    padding:8px;
+}
+button {
+    border-radius:5px;
+    padding:8px;
+    background:#000;
+    color:#fff;
+    cursor:pointer;
+}
