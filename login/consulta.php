@@ -10,7 +10,6 @@ class consulta{
 
     public function login()
     {
-        $username ="";
         if (isset($_POST['pass']) && isset($_POST['username'])) {
             $pass = $_POST['pass'];
             $username = $_POST['username'];
@@ -21,25 +20,27 @@ class consulta{
             $row = $stmt->fetch(PDO::FETCH_NUM);
             if ($row == true) {
                 $username = $row['1'];
-                setcookie("username", $username);
+                $hash = password_hash($pass, PASSWORD_BCRYPT);
+
+                setcookie("hash", $hash);
             }else{
                 return false;
             }
         }
 
-        return $username;
+        return $hash;
     }
 
 }
 $pdo = new PDO ( "mysql:host=localhost;dbname=login;charset=utf8", "jsapena", "jsapena");
 $consulta = new consulta($pdo);
 
-if(isset($_COOKIE['username'])){
-    header('location: main.js');
-    $username = $_COOKIE['username'];
+if($_COOKIE['hash']){
+    echo $_COOKIE['hash'];
 }else{
-    $username = $consulta->login();
-    $username = json_encode($username);
+    $hash = $consulta->login();
+    $hash = json_encode($hash);
+    echo $hash;
 }
-echo $username;
+
 ?>

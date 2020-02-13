@@ -1,8 +1,3 @@
 $.get("consulta.php", function(data, status){
-  alert(data)
+    window.location = "index.php";
 });
-/*
-$( "#btnLogin" ).click(function() {
-    console.log("hola")
-});
-*/
